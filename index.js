@@ -5,7 +5,7 @@ const cors = require("cors");
 const request = require("request");
 const app = express();
 
-const apikey = "a4f3f7cd74484a9623f61a5b2f95e10e";
+const apikey = "YOUR_API_KEY";
 
 app.use(express.static("public"));
 app.use(express.json());
